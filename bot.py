@@ -9,17 +9,7 @@ from datetime import datetime
 
 import time
 
-if os.path.exists(os.getcwd() + "/config.json"):
-    with open("./config.json") as f:
-        configData = json.load(f)
-else:
-    configTemplate = {"Token": "", "Prefix": "!"}
-
-    with open(os.getcwd() + "/config.json", "w+") as f:
-        json.dump(configTemplate, f)
-
-token = configData["Token"]
-prefix = configData["Prefix"]
+token = "ODI2ODA3NTg1MzY1Mjk1MTA1.YGR2kQ.J5Hv55jbkwZBqkfsF2ze2DCOXn0"
 
 client = commands.Bot(command_prefix = '@')
 
