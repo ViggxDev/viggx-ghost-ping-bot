@@ -9,7 +9,7 @@ from datetime import datetime
 
 import time
 
-token = "ODI2ODA3NTg1MzY1Mjk1MTA1.YGR2kQ.J5Hv55jbkwZBqkfsF2ze2DCOXn0"
+token = "XXX"
 
 client = commands.Bot(command_prefix = '@')
 
